@@ -145,8 +145,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     camera.msm8937 \
-    libmm-qcamera \
-    Snap
+    libmm-qcamera
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.2 \
@@ -354,6 +353,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
 
 # QMI
 PRODUCT_PACKAGES += \
