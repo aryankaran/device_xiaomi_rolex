@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_rolex.mk
+    $(LOCAL_DIR)/calyx_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_rolex-user \
-    dot_rolex-userdebug \
-    dot_rolex-eng
+    calyx_rolex-user \
+    calyx_rolex-userdebug \
+    calyx_rolex-eng
