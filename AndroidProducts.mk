@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_rolex.mk
+    $(LOCAL_DIR)/lineage_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_rolex-user \
-    dot_rolex-userdebug \
-    dot_rolex-eng
+    lineage_rolex-user \
+    lineage_rolex-userdebug \
+    lineage_rolex-eng
